@@ -60,7 +60,7 @@ jekyll我用过，需要使用ruby，代码确实管理混乱，非常难以理�
 
 	http://localhost:4000
 
-接下来，可以进行一堆修改操作，commit了之后，在自己电脑上：
+接下来，可以进行一堆修改操作，commit了之后（然后要记得push到mechinfoBlog里面），在自己电脑上：
 
 	hexo generate && hexo deploy #生成静态网页，在/public目录下
 	
@@ -107,3 +107,4 @@ jekyll我用过，需要使用ruby，代码确实管理混乱，非常难以理�
 * 2017.7.4: hexo has a problem displaying images.
 	2017.7.8 update: problem solved. Former ways of displaying image in normal markdown format were all erroneous. However, the command "hexo server" will be able to display images in markdown format so the problem did not pop up. In order for hexo to generate the correct static webpage, the command has to be changed to this format: {% asset_img example.jpg This is an example image %} see https://hexo.io/docs/asset-folders.html for detailed reference.
 
+* 2018.7.14: solved the problem of `git deploy` pushing all the root file to the "mechinfo html" repo. Just`rm .deploy_git` and `hexo g` again (you'd better `hexo clean` the existing generated files first).
