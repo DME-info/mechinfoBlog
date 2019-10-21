@@ -3,16 +3,12 @@
   "version": "0.0.0",
   "private": true,
   "hexo": {
-<<<<<<< HEAD
     "version": "3.3.7"
-=======
-    "version": "3.7.1"
->>>>>>> 307e728c917376dc862f31ab405f33b62f6a7acd
   },
   "dependencies": {
     "a-sync-waterfall": "^1.0.0",
     "ejs": "^2.6.1",
-    "hexo": "^3.7.1",
+    "hexo": "^3.9.0",
     "hexo-asset-image": "git+https://github.com/CodeFalling/hexo-asset-image.git",
     "hexo-deployer-git": "^0.3.1",
     "hexo-generator-archive": "^0.1.4",
